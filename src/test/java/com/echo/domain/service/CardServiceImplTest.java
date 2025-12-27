@@ -24,7 +24,7 @@ class CardServiceImplTest {
 
     @Test
     void shouldCreateCard() {
-        Card card = cardService.createCard("Queston?", "Answer", "tag1");
+        Card card = cardService.createCard("Question?", "Answer", "tag1");
 
         assertNotNull(card.getId());
         assertEquals("Question?", card.getQuestion());
