@@ -1,4 +1,4 @@
-package com.leitner.domain.model;
+package com.echo.domain.model;
 
 public enum Category {
     FIRST(1),
